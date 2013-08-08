@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 
-
 from setuptools import setup, find_packages
 from titlecase import __version__
 
