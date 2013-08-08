@@ -5,9 +5,18 @@ Python TitleCase
 Titlecase is a port of John Gruber's titlecase.pl:
 `http://daringfireball.net/2008/05/title_case <http://daringfireball.net/2008/05/title_case>`_
 
-This filter changes all words to Title Caps, and attempts to be clever about *un*\capitalizing SMALL words like a/an/the in the input.
+This filter changes all words to Title Caps, and attempts to be clever about
+*un*\capitalizing SMALL words like a/an/the in the input.
 
-The list of "SMALL words" which are not capped comes from the New York Times Manual of Style, plus 'vs' and 'v'.
+The list of "SMALL words" which are not capped comes from the New York Times
+Manual of Style, plus 'vs' and 'v'.
+
+Installation
+============
+
+#. Using ``pip``::
+
+       pip install git+https://bitbucket.org/raymondwanyoike/python-titlecase.git#egg=titlecase
 
 Usage
 =====
@@ -15,10 +24,5 @@ Usage
 To use it is as simple as::
 
     >>> from titlecase import titlecase
-    >>> titlecase('a thing')
-    'A Thing'
-
-Bugs/Patches/Contributions
-==========================
-
-See `https://launchpad.net/titlecase.py <https://launchpad.net/titlecase.py>`_
+    >>> titlecase('it\'s a beautiful thing, the destruction of words')
+    "It's a Beautiful Thing, the Destruction of Words"
