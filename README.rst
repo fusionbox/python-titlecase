@@ -16,7 +16,7 @@ Installation
 
 #. Using ``pip``::
 
-       pip install git+https://bitbucket.org/raymondwanyoike/python-titlecase.git#egg=titlecase
+       pip install "git+https://bitbucket.org/raymondwanyoike/python-titlecase.git#egg=titlecase"
 
 Usage
 =====
