@@ -14,9 +14,9 @@ Manual of Style, plus 'vs' and 'v'.
 Installation
 ============
 
-#. Using ``pip``::
+Using ``pip``::
 
-       pip install "git+https://bitbucket.org/raymondwanyoike/python-titlecase.git#egg=titlecase"
+    pip install "git+https://bitbucket.org/raymondwanyoike/python-titlecase.git#egg=titlecase"
 
 Usage
 =====
