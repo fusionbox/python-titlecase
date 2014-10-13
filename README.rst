@@ -16,7 +16,7 @@ Installation
 
 Using ``pip``::
 
-    pip install "git+https://github.com/raymondwanyoike/python-titlecase"
+    pip install "git+https://github.com/raymondwanyoike/python-titlecase#egg=titlecase"
 
 Usage
 =====
