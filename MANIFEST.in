@@ -1,1 +1,1 @@
-recursive-exclude * *.py[co]
+# recursive-exclude * *.py[co]

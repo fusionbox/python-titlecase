@@ -3,10 +3,11 @@
 
 # Packaging files:
 *.egg*
+/dist/
 
 # Editor temp files:
 *.swp
 *~
 
 # Sphinx docs:
-build
+/build/
