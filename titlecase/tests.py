@@ -147,7 +147,11 @@ TEST_DATA = (
     (
         "FOO 5 BAR",
         "Foo 5 Bar"
-    )
+    ),
+    (
+        "O'CONNOR",
+        "O'Connor",
+    ),
 )
 
 
