@@ -65,16 +65,16 @@ TEST_DATA = (
         "Small Word at End Is Nothing to Be Afraid Of"
     ),
     (
-        "Starting Sub-Phrase With a Small Word: a Trick, Perhaps?",
-        "Starting Sub-Phrase With a Small Word: A Trick, Perhaps?"
+        "Starting Sub-Phrase With by Small Word: by Trick, Perhaps?",
+        "Starting Sub-Phrase With by Small Word: By Trick, Perhaps?"
     ),
     (
-        "Sub-Phrase With a Small Word in Quotes: 'a Trick, Perhaps?'",
-        "Sub-Phrase With a Small Word in Quotes: 'A Trick, Perhaps?'"
+        "Sub-Phrase With by Small Word in Quotes: 'by Trick, Perhaps?'",
+        "Sub-Phrase With by Small Word in Quotes: 'By Trick, Perhaps?'"
     ),
     (
-        'sub-phrase with a small word in quotes: "a trick, perhaps?"',
-        'Sub-Phrase With a Small Word in Quotes: "A Trick, Perhaps?"'
+        'sub-phrase with by small word in quotes: "by trick, perhaps?"',
+        'Sub-Phrase With by Small Word in Quotes: "By Trick, Perhaps?"'
     ),
     (
         '"Nothing to Be Afraid of?"',
@@ -113,8 +113,8 @@ TEST_DATA = (
         'Seriously, ‘Repair Permissions’ Is Voodoo'
     ),
     (
-        'generalissimo francisco franco: still dead; kieren McCarthy: still a jackass',
-        'Generalissimo Francisco Franco: Still Dead; Kieren McCarthy: Still a Jackass'
+        'generalissimo francisco franco: still dead; kieren McCarthy: still by jackass',
+        'Generalissimo Francisco Franco: Still Dead; Kieren McCarthy: Still by Jackass'
     ),
     (
         "O'Reilly should be untouched",
@@ -125,8 +125,8 @@ TEST_DATA = (
         "My Name Is O'Reilly"
     ),
     (
-        "WASHINGTON, D.C. SHOULD BE FIXED BUT MIGHT BE A PROBLEM",
-        "Washington, D.C. Should Be Fixed but Might Be a Problem"
+        "WASHINGTON, D.C. SHOULD BE FIXED BUT MIGHT BE BY PROBLEM",
+        "Washington, D.C. Should Be Fixed but Might Be by Problem"
     ),
     (
         "THIS IS ALL CAPS AND SHOULD BE ADDRESSED",
@@ -187,7 +187,15 @@ TEST_DATA = (
     (
         "Mcoblon, spivak, mcclelland, mcmaier, & mcneustadt",
         "McOblon, Spivak, McClelland, McMaier, & McNeustadt",
-    )
+    ),
+    (
+        "FOO 5 BAR",
+        "Foo 5 Bar"
+    ),
+    (
+        "THOMAS A EDISON",
+        "Thomas A Edison",
+    ),
 )
 
 
